@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>AiCoder</value>
+  </data>
+  <data name="NewSession" xml:space="preserve">
+    <value>+ 新会话</value>
+  </data>
+  <data name="ManageProviders" xml:space="preserve">
+    <value>管理提供者</value>
+  </data>
+  <data name="NoSessionSelected" xml:space="preserve">
+    <value>尚未选择会话</value>
+  </data>
+  <data name="YouHaventChosenSession" xml:space="preserve">
+    <value>你还没有选择会话。</value>
+  </data>
+  <data name="EnterYourMessages" xml:space="preserve">
+    <value>输入你的消息...</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="PleaseAddProviderFirst" xml:space="preserve">
+    <value>请先添加一个模型提供者。</value>
+  </data>
+  <data name="InitializationFailed" xml:space="preserve">
+    <value>初始化失败。</value>
+  </data>
+  <data name="DeleteSession" xml:space="preserve">
+    <value>删除会话</value>
+  </data>
+  <data name="ConfirmDeleteSession" xml:space="preserve">
+    <value>确认删除 "{0}" ？</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AllowToolCalling" xml:space="preserve">
+    <value>允许调用工具：{0}？</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>批准</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>拒绝</value>
+  </data>
+  <data name="CreateNewSession" xml:space="preserve">
+    <value>创建新会话</value>
+  </data>
+  <data name="ModelProviders" xml:space="preserve">
+    <value>模型提供者</value>
+  </data>
+  <data name="SelectModelProvider" xml:space="preserve">
+    <value>选择模型提供者</value>
+  </data>
+  <data name="ToolCallingPattern" xml:space="preserve">
+    <value>工具调用模式</value>
+  </data>
+  <data name="AutoRunTools" xml:space="preserve">
+    <value>自动运行工具</value>
+  </data>
+  <data name="AskForToolCalling" xml:space="preserve">
+    <value>询问后运行工具</value>
+  </data>
+  <data name="NeverRunTools" xml:space="preserve">
+    <value>不运行工具</value>
+  </data>
+  <data name="StartYourChat" xml:space="preserve">
+    <value>开始聊天</value>
+  </data>
+  <data name="PleaseAddOrChooseProvider" xml:space="preserve">
+    <value>请添加或选择一个模型提供者。</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="AddProvider" xml:space="preserve">
+    <value>+ 添加提供者</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="DeleteProvider" xml:space="preserve">
+    <value>删除提供者</value>
+  </data>
+  <data name="ConfirmDeleteProvider" xml:space="preserve">
+    <value>确认删除 "{0}" ？</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ProvidersConfig" xml:space="preserve">
+    <value>提供者配置</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="DisplayNamePlaceholder" xml:space="preserve">
+    <value>例如：Ollama / OpenAI</value>
+  </data>
+  <data name="InterfaceType" xml:space="preserve">
+    <value>接口类型</value>
+  </data>
+  <data name="EndpointBaseUrl" xml:space="preserve">
+    <value>Endpoint / Base URL</value>
+  </data>
+  <data name="ApiKey" xml:space="preserve">
+    <value>API Key</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>模型名称</value>
+  </data>
+  <data name="ModelNamePlaceholder" xml:space="preserve">
+    <value>gpt-4o-mini / gpt-oss:20b / ...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ProviderNameMustNotBeEmpty" xml:space="preserve">
+    <value>模型名称不能为空</value>
+  </data>
+  <data name="OllamaNoApiKey" xml:space="preserve">
+    <value>（Ollama 不需要此项）</value>
+  </data>
+  <data name="OpenAiEndpointPlaceholder" xml:space="preserve">
+    <value>https://api.openai.com/v1（留空使用官方接口）</value>
+  </data>
+  <data name="OpenAiApiKeyPlaceholder" xml:space="preserve">
+    <value>sk-...</value>
+  </data>
+  <data name="CompatibleEndpointPlaceholder" xml:space="preserve">
+    <value>https://your-endpoint/v1</value>
+  </data>
+  <data name="CompatibleApiKeyPlaceholder" xml:space="preserve">
+    <value>API Key</value>
+  </data>
+  <data name="OtherPlaceholder" xml:space="preserve">
+    <value>输入其他内容...</value>
+  </data>
+  <data name="Prompt" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="OtherEmptyWarning" xml:space="preserve">
+    <value>你选择了 Other，但还没有输入内容。</value>
+  </data>
+  <data name="PleaseSelectAtLeastOne" xml:space="preserve">
+    <value>请至少选择一项。</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>好</value>
+  </data>
+  <data name="AttachImage" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="RemoveAttachment" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="FileAttached" xml:space="preserve">
+    <value>个文件已附加</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>拍照</value>
+  </data>
+  <data name="SpeechToText" xml:space="preserve">
+    <value>语音</value>
+  </data>
+  <data name="Listening" xml:space="preserve">
+    <value>正在聆听...</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="DeniedMessage" xml:space="preserve">
+    <value>工具执行被用户拒绝或被当前模式阻止。</value>
+  </data>
+  <data name="ModelNameRequired" xml:space="preserve">
+    <value>请输入模型名称。</value>
+  </data>
+  <data name="EndpointRequired" xml:space="preserve">
+    <value>请输入 Endpoint。</value>
+  </data>
+  <data name="ScreenshotNotSupported" xml:space="preserve">
+    <value>当前平台不支持截图。</value>
+  </data>
+  <data name="ScreenshotSaved" xml:space="preserve">
+    <value>截图已保存：{0}</value>
+  </data>
+  <data name="ScreenshotFailed" xml:space="preserve">
+    <value>截图失败：{0}</value>
+  </data>
+  <data name="MicrophonePermissionDenied" xml:space="preserve">
+    <value>语音输入需要麦克风权限。</value>
+  </data>
+  <data name="SpeechToTextFailed" xml:space="preserve">
+    <value>语音输入失败：{0}</value>
+  </data>
+  <data name="SpeechPrivacyRequired" xml:space="preserve">
+    <value>Windows 隐私设置中关闭了在线语音识别。请开启它以使用语音输入。</value>
+  </data>
+  <data name="OpenSettings" xml:space="preserve">
+    <value>打开设置</value>
+  </data>
+  <data name="SessionRestored" xml:space="preserve">
+    <value>会话已恢复。</value>
+  </data>
+  <data name="MessageYou" xml:space="preserve">
+    <value>[你]</value>
+  </data>
+  <data name="MessageAgent" xml:space="preserve">
+    <value>[助手]</value>
+  </data>
+  <data name="MessageToolCall" xml:space="preserve">
+    <value>[工具调用]</value>
+  </data>
+  <data name="MessageToolResult" xml:space="preserve">
+    <value>[工具结果]</value>
+  </data>
+  <data name="ToolReadFile" xml:space="preserve">
+    <value>读取：</value>
+  </data>
+  <data name="ToolWriteFile" xml:space="preserve">
+    <value>写入：</value>
+  </data>
+  <data name="ToolEditFile" xml:space="preserve">
+    <value>编辑：</value>
+  </data>
+  <data name="ToolSearch" xml:space="preserve">
+    <value>搜索：</value>
+  </data>
+  <data name="ToolRunPowerShell" xml:space="preserve">
+    <value>运行命令：</value>
+  </data>
+  <data name="ToolTakeScreenshot" xml:space="preserve">
+    <value>截取主屏幕</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>预览：</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>模式：</value>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>包含：</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>替换：</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>为：</value>
+  </data>
+</root>

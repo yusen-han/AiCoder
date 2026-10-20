@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppTitle" xml:space="preserve">
+    <value>AiCoder</value>
+  </data>
+  <data name="NewSession" xml:space="preserve">
+    <value>+ New Session</value>
+  </data>
+  <data name="ManageProviders" xml:space="preserve">
+    <value>Manage Providers</value>
+  </data>
+  <data name="NoSessionSelected" xml:space="preserve">
+    <value>Haven't selected a session</value>
+  </data>
+  <data name="YouHaventChosenSession" xml:space="preserve">
+    <value>You haven't chosen a session.</value>
+  </data>
+  <data name="EnterYourMessages" xml:space="preserve">
+    <value>Enter Your Messages...</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Remind" xml:space="preserve">
+    <value>Remind</value>
+  </data>
+  <data name="PleaseAddProviderFirst" xml:space="preserve">
+    <value>Please add a model provider first.</value>
+  </data>
+  <data name="InitializationFailed" xml:space="preserve">
+    <value>Initialization Failed.</value>
+  </data>
+  <data name="DeleteSession" xml:space="preserve">
+    <value>Delete Session</value>
+  </data>
+  <data name="ConfirmDeleteSession" xml:space="preserve">
+    <value>Confirm delete "{0}" ?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="AllowToolCalling" xml:space="preserve">
+    <value>Allow tool calling: {0}?</value>
+  </data>
+  <data name="Approve" xml:space="preserve">
+    <value>Approve</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Decline</value>
+  </data>
+  <data name="CreateNewSession" xml:space="preserve">
+    <value>Create a new session</value>
+  </data>
+  <data name="ModelProviders" xml:space="preserve">
+    <value>Model Providers</value>
+  </data>
+  <data name="SelectModelProvider" xml:space="preserve">
+    <value>Select a model provider</value>
+  </data>
+  <data name="ToolCallingPattern" xml:space="preserve">
+    <value>Tool Calling Pattern</value>
+  </data>
+  <data name="AutoRunTools" xml:space="preserve">
+    <value>Auto Run Tools</value>
+  </data>
+  <data name="AskForToolCalling" xml:space="preserve">
+    <value>Ask for Tool Calling</value>
+  </data>
+  <data name="NeverRunTools" xml:space="preserve">
+    <value>Never Run Tools</value>
+  </data>
+  <data name="StartYourChat" xml:space="preserve">
+    <value>Start your chat</value>
+  </data>
+  <data name="PleaseAddOrChooseProvider" xml:space="preserve">
+    <value>Please add or choose a model provider.</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="AddProvider" xml:space="preserve">
+    <value>+ Add a Provider</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="DeleteProvider" xml:space="preserve">
+    <value>Delete a provider</value>
+  </data>
+  <data name="ConfirmDeleteProvider" xml:space="preserve">
+    <value>Confirm delete "{0}" ?</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="ProvidersConfig" xml:space="preserve">
+    <value>Providers Config</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="DisplayNamePlaceholder" xml:space="preserve">
+    <value>Such as: Ollama / OpenAI</value>
+  </data>
+  <data name="InterfaceType" xml:space="preserve">
+    <value>Interface Type</value>
+  </data>
+  <data name="EndpointBaseUrl" xml:space="preserve">
+    <value>Endpoint / Base URL</value>
+  </data>
+  <data name="ApiKey" xml:space="preserve">
+    <value>API Key</value>
+  </data>
+  <data name="ModelName" xml:space="preserve">
+    <value>Model Name</value>
+  </data>
+  <data name="ModelNamePlaceholder" xml:space="preserve">
+    <value>gpt-4o-mini / gpt-oss:20b / ...</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="ProviderNameMustNotBeEmpty" xml:space="preserve">
+    <value>Provider name mustn't be empty</value>
+  </data>
+  <data name="OllamaNoApiKey" xml:space="preserve">
+    <value>(Ollama doesn't need this)</value>
+  </data>
+  <data name="OpenAiEndpointPlaceholder" xml:space="preserve">
+    <value>https://api.openai.com/v1 (Keep empty for official endpoint)</value>
+  </data>
+  <data name="OpenAiApiKeyPlaceholder" xml:space="preserve">
+    <value>sk-...</value>
+  </data>
+  <data name="CompatibleEndpointPlaceholder" xml:space="preserve">
+    <value>https://your-endpoint/v1</value>
+  </data>
+  <data name="CompatibleApiKeyPlaceholder" xml:space="preserve">
+    <value>API Key</value>
+  </data>
+  <data name="OtherPlaceholder" xml:space="preserve">
+    <value>Enter other content...</value>
+  </data>
+  <data name="Prompt" xml:space="preserve">
+    <value>Prompt</value>
+  </data>
+  <data name="OtherEmptyWarning" xml:space="preserve">
+    <value>You selected Other but haven't entered anything.</value>
+  </data>
+  <data name="PleaseSelectAtLeastOne" xml:space="preserve">
+    <value>Please select at least one item.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="AttachImage" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="AttachFile" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="RemoveAttachment" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="FileAttached" xml:space="preserve">
+    <value>file attached</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="SpeechToText" xml:space="preserve">
+    <value>Voice</value>
+  </data>
+  <data name="Listening" xml:space="preserve">
+    <value>Listening...</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>中文</value>
+  </data>
+  <data name="DeniedMessage" xml:space="preserve">
+    <value>Tool execution was denied by the user or blocked by the current mode.</value>
+  </data>
+  <data name="ModelNameRequired" xml:space="preserve">
+    <value>Please enter the model name.</value>
+  </data>
+  <data name="EndpointRequired" xml:space="preserve">
+    <value>Please enter the endpoint.</value>
+  </data>
+  <data name="ScreenshotNotSupported" xml:space="preserve">
+    <value>Screenshot capture is not supported on this platform.</value>
+  </data>
+  <data name="ScreenshotSaved" xml:space="preserve">
+    <value>Screenshot saved: {0}</value>
+  </data>
+  <data name="ScreenshotFailed" xml:space="preserve">
+    <value>Failed to capture screenshot: {0}</value>
+  </data>
+  <data name="MicrophonePermissionDenied" xml:space="preserve">
+    <value>Microphone permission is required for speech-to-text.</value>
+  </data>
+  <data name="SpeechToTextFailed" xml:space="preserve">
+    <value>Speech-to-text failed: {0}</value>
+  </data>
+  <data name="SpeechPrivacyRequired" xml:space="preserve">
+    <value>Online speech recognition is turned off in Windows privacy settings. Enable it to use voice input.</value>
+  </data>
+  <data name="OpenSettings" xml:space="preserve">
+    <value>Open Settings</value>
+  </data>
+  <data name="SessionRestored" xml:space="preserve">
+    <value>Session restored.</value>
+  </data>
+  <data name="MessageYou" xml:space="preserve">
+    <value>[You]</value>
+  </data>
+  <data name="MessageAgent" xml:space="preserve">
+    <value>[Agent]</value>
+  </data>
+  <data name="MessageToolCall" xml:space="preserve">
+    <value>[Tool Call]</value>
+  </data>
+  <data name="MessageToolResult" xml:space="preserve">
+    <value>[Tool Result]</value>
+  </data>
+  <data name="ToolReadFile" xml:space="preserve">
+    <value>Read:</value>
+  </data>
+  <data name="ToolWriteFile" xml:space="preserve">
+    <value>Write:</value>
+  </data>
+  <data name="ToolEditFile" xml:space="preserve">
+    <value>Edit:</value>
+  </data>
+  <data name="ToolSearch" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="ToolRunPowerShell" xml:space="preserve">
+    <value>Run a command:</value>
+  </data>
+  <data name="ToolTakeScreenshot" xml:space="preserve">
+    <value>Capture the main screen</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Preview:</value>
+  </data>
+  <data name="Pattern" xml:space="preserve">
+    <value>Pattern:</value>
+  </data>
+  <data name="Including" xml:space="preserve">
+    <value>Including:</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace:</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>To:</value>
+  </data>
+</root>

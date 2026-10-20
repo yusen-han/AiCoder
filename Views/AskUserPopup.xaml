@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               xmlns:models="clr-namespace:AiCoder.Models"
+               xmlns:strings="clr-namespace:AiCoder.Resources.Strings"
+               x:Class="AiCoder.Views.AskUserPopup"
+               x:TypeArguments="models:AskUserResult"
+               Padding="0"
+               CanBeDismissedByTappingOutsideOfPopup="True">
+
+    <Border StrokeShape="RoundRectangle 10" StrokeThickness="1" Padding="0"
+            BackgroundColor="{AppThemeBinding Light=White, Dark=#2D2D2D}">
+        <Grid RowDefinitions="Auto,*,Auto,Auto" RowSpacing="0" Padding="20" WidthRequest="420">
+
+            <!-- 问题 -->
+            <Label Grid.Row="0"
+                   x:Name="QuestionLabel"
+                   FontSize="17" FontAttributes="Bold"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,16" />
+
+            <!-- 选项列表 -->
+            <ScrollView Grid.Row="1" MaximumHeightRequest="360">
+                <VerticalStackLayout x:Name="OptionsLayout" Spacing="8" />
+            </ScrollView>
+
+            <!-- Other 输入框（按需显示） -->
+            <Entry Grid.Row="2"
+                   x:Name="OtherEntry"
+                   Placeholder="{x:Static strings:AppResources.OtherPlaceholder}"
+                   IsVisible="False"
+                   Margin="0,12,0,0" />
+
+            <!-- 操作按钮 -->
+            <Grid Grid.Row="3" ColumnDefinitions="*,*" ColumnSpacing="10" Margin="0,20,0,0">
+                <Button Grid.Column="0" Text="{x:Static strings:AppResources.Cancel}"
+                        Clicked="Cancel_Click"
+                        BackgroundColor="Transparent"
+                        TextColor="{AppThemeBinding Light=#666, Dark=#AAA}" />
+                <Button Grid.Column="1" Text="{x:Static strings:AppResources.Ok}"
+                        Clicked="Confirm_Click" />
+            </Grid>
+        </Grid>
+    </Border>
+</toolkit:Popup>
