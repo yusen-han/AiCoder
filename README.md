@@ -85,4 +85,4 @@ AiCoder/
 
 ## License
 
-This project is provided as-is for personal use and experimentation.
+This project is licensed under the [GNU General Public License v3.0](LICENSE).
